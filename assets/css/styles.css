@@ -534,3 +534,39 @@ iframe {
     width: 1360px;
   }
 }
+
+#onglets-pro {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.onglets {
+    display: flex; /* Pour aligner les boutons horizontalement */
+    margin-bottom: 20px;
+}
+
+.onglet-bouton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd; /* Couleur des boutons */
+    cursor: pointer;
+    border-radius: 5px 5px 0 0; /* Arrondir le haut des boutons */
+    margin-right: 5px;
+}
+
+.onglet-bouton:hover {
+    background-color: #ccc; /* Couleur au survol */
+}
+
+.onglet-bouton.active {
+    background-color: #f4f4f4; /* Couleur du bouton actif */
+}
+
+.onglet-contenu {
+    padding: 20px;
+    border-top: 2px solid #ddd; /* Ligne au-dessus du contenu */
+}

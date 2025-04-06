@@ -570,3 +570,17 @@ iframe {
     padding: 20px;
     border-top: 2px solid #ddd; /* Ligne au-dessus du contenu */
 }
+.container-images {
+  text-align: center; /* Centrer les images horizontalement (facultatif) */
+}
+
+.image-cote-a-cote {
+  display: inline-block;
+  width: 200px; /* Ajustez la largeur souhaitée */
+  height: auto; /* Garder le ratio de l'image */
+  margin-right: 10px; /* Ajouter un espace entre les images (facultatif) */
+}
+
+.image-cote-a-cote:last-child {
+  margin-right: 0; /* Supprimer la marge droite de la dernière image pour éviter un espace supplémentaire à la fin */
+}

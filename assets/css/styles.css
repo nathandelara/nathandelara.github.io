@@ -574,6 +574,13 @@ iframe {
   text-align: center; /* Centrer les images horizontalement (facultatif) */
 }
 
+.container-flex {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement (facultatif) */
+  align-items: center; /* Centrer verticalement (facultatif) */
+  gap: 10px; /* Espace entre les images (facultatif - navigateurs modernes) */
+}
+
 .image-cote-a-cote {
   display: inline-block;
   width: 200px; /* Ajustez la largeur souhaitée */

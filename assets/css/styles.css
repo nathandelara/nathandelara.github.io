@@ -578,7 +578,7 @@ iframe {
   display: flex;
   justify-content: center; /* Centrer horizontalement (facultatif) */
   align-items: center; /* Centrer verticalement (facultatif) */
-  gap: 10px; /* Espace entre les images (facultatif - navigateurs modernes) */
+  gap: 50px; /* Espace entre les images (facultatif - navigateurs modernes) */
 }
 
 .image-cote-a-cote {
